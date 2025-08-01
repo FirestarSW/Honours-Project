@@ -1,0 +1,5 @@
+Name,ID,Profile L X,Profile R X,Profile L Length,Profile R Length,Profile L Width,Profile R Width,Profile L Shape,Profile R Shape,Cross Section y,Cross Section T x,Cross Section F x,Cross Section T L Thickness ,Cross Section T R Thickness ,Cross Section F L Thickness ,Cross Section F R Thickness ,Cross Section T L Shape,Cross Section T R Shape ,Cross Section F L Shape ,Cross Section F R Shape ,Weight,Material
+Red Dragon Longsword,0,,,,,,,,,,,,,,,,,,,,,Plastic SteelCore
+Red Dragon Bastard Sword,1,,,,,,,,,,,,,,,,,,,,,Plastic SteelCore
+Red Dragon Arming Sword,2,,,,,,,,,,,,,,,,,,,,,Plastic SteelCore
+Test Sword,3,,,30,30,3;1.5,3;1.5,,,0;30,6;3,6;3,1;1 0.8,1;1 0.8,1;1 0.8,1;1 0.8,,,,,,Soft Steel

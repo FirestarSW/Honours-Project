@@ -1,0 +1,14 @@
+{
+  "name": "firestarw.procedural_sword_generator",
+  "version": "0.1.0",
+  "displayName": "Procedural Sword Generator",
+  "description": "Generator to procedural generate swords!",
+  "keywords": [
+    "Swords",
+    "Procedural Generation"
+  ],
+  "author": {
+    "name": "Caius Walker",
+    "email": "2102018@uad.ac.uk"
+  }
+}

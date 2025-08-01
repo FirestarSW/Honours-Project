@@ -1,0 +1,6 @@
+Sword Name,Sword Id,Type,Blade ID,Tang ID,Fuller TF ID,Fuller TF Centre x,Fuller TF Start Y,Fuller BF ID,Fuller BF Centre x,Fuller BF Start Y,Guard ID,Grip ID,Pommel ID
+Red Dragon Longsword,0,,0,0,,,,,,,0;0,0,0
+Red Dragon Bastard Sword,1,,1,1,,,,,,,1;1,1,1
+Red Dragon Arming Sword,2,,1,2,,,,,,,1;1,1,2
+Test Sword,3,,2,3,0,0,4,,,,2;2,2,2
+Test Sword 2,4,,2,3,0,0,4,0,0,4,2;0,1,1

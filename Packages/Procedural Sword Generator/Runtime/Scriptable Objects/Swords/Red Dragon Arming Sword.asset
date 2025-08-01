@@ -1,0 +1,639 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b01530c8bd128943926389f4c5c05d7, type: 3}
+  m_Name: Red Dragon Arming Sword
+  m_EditorClassIdentifier: 
+  swordData:
+    name: Red Dragon Arming Sword
+    id: 10
+    blade:
+      name: Red Dragon Arming Sword Blade
+      totalLength: 86.5
+      totalWeight: 525
+      bladeWeight: 525
+      bladeMaterial: Plastic SteelCore
+      bladeMaterialPath: 
+      pob: 0
+      shape:
+        totalLength: 86.5
+        baseWidth: 0
+        tipWidth: 0
+        baseThickness: 1.7
+        tipThickness: 0.9
+        leftProfiles:
+        - baseX: 0
+          topX: 0
+          length: 86.5
+          baseWidth: 2.75
+          topWidth: 1.05
+          shape: N
+        rightProfiles:
+        - baseX: 0
+          topX: 0
+          length: 86.5
+          baseWidth: 2.75
+          topWidth: 1.05
+          shape: N
+        crossSections:
+        - y: 0
+          trueEdges:
+          - x: 2.75
+            left:
+              baseThickness: 0.85
+              topThickness: 0.4
+              shape: N
+            right:
+              baseThickness: 0.85
+              topThickness: 0.4
+              shape: N
+          falseEdges:
+          - x: 2.75
+            left:
+              baseThickness: 0.85
+              topThickness: 0.4
+              shape: N
+            right:
+              baseThickness: 0.85
+              topThickness: 0.4
+              shape: N
+        - y: 86.5
+          trueEdges:
+          - x: 1.05
+            left:
+              baseThickness: 0.45
+              topThickness: 0.3
+              shape: N
+            right:
+              baseThickness: 0.45
+              topThickness: 0.3
+              shape: N
+          falseEdges:
+          - x: 1.05
+            left:
+              baseThickness: 0.45
+              topThickness: 0.3
+              shape: N
+            right:
+              baseThickness: 0.45
+              topThickness: 0.3
+              shape: N
+      topFaceFullers:
+      - centreX: 0
+        startY: 0
+        leftSide: []
+        rightSide: []
+      bottomFaceFullers:
+      - centreX: 0
+        startY: 0
+        leftSide: []
+        rightSide: []
+      tang:
+        weight: 0
+        material: 
+        pob: 0
+        shape:
+          totalLength: 0
+          baseWidth: 0
+          tipWidth: 0
+          baseThickness: 0
+          tipThickness: 0
+          leftProfiles: []
+          rightProfiles: []
+          crossSections: []
+    trueGuards:
+    - name: Red Dragon Arming Sword Guard
+      weight: 16.5
+      material: TPE
+      materialPath: 
+      pob: 0
+      shape:
+        totalLength: 10.1
+        baseWidth: 0
+        tipWidth: 0
+        baseThickness: 2.7
+        tipThickness: 2.8
+        leftProfiles:
+        - baseX: 0
+          topX: 0
+          length: 2.75
+          baseWidth: 1
+          topWidth: 0.5
+          shape: N
+        - baseX: 0
+          topX: -0.5
+          length: 1.51
+          baseWidth: 0.5
+          topWidth: 0.5
+          shape: N
+        - baseX: -0.5
+          topX: -1
+          length: 3.04
+          baseWidth: 0.5
+          topWidth: 0.5
+          shape: N
+        - baseX: -1
+          topX: -1
+          length: 2.8
+          baseWidth: 0.5
+          topWidth: 1.4
+          shape: N
+        rightProfiles:
+        - baseX: 0
+          topX: 0
+          length: 2.75
+          baseWidth: 1.7
+          topWidth: 1
+          shape: N
+        - baseX: 0
+          topX: 0.5
+          length: 1.51
+          baseWidth: 1
+          topWidth: 0.5
+          shape: N
+        - baseX: 0.5
+          topX: 1
+          length: 3.04
+          baseWidth: 0.5
+          topWidth: 0.5
+          shape: N
+        - baseX: 1
+          topX: 1
+          length: 2.8
+          baseWidth: 0.5
+          topWidth: 1.4
+          shape: N
+        crossSections:
+        - y: 0
+          trueEdges:
+          - x: 1
+            left:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+            right:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+          falseEdges:
+          - x: 1
+            left:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+            right:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+        - y: 2.75
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+        - y: 1.51
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+        - y: 3.04
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+        - y: 2.8
+          trueEdges:
+          - x: 0.75
+            left:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 0.75
+            left:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+    falseGuards:
+    - name: Red Dragon Arming Sword Guard
+      weight: 16.5
+      material: TPE
+      materialPath: 
+      pob: 0
+      shape:
+        totalLength: 10.1
+        baseWidth: 0
+        tipWidth: 0
+        baseThickness: 2.7
+        tipThickness: 2.8
+        leftProfiles:
+        - baseX: 0
+          topX: 0
+          length: 2.75
+          baseWidth: 1
+          topWidth: 0.5
+          shape: N
+        - baseX: 0
+          topX: -0.5
+          length: 1.51
+          baseWidth: 0.5
+          topWidth: 0.5
+          shape: N
+        - baseX: -0.5
+          topX: -1
+          length: 3.04
+          baseWidth: 0.5
+          topWidth: 0.5
+          shape: N
+        - baseX: -1
+          topX: -1
+          length: 2.8
+          baseWidth: 0.5
+          topWidth: 1.4
+          shape: N
+        rightProfiles:
+        - baseX: 0
+          topX: 0
+          length: 2.75
+          baseWidth: 1.7
+          topWidth: 1
+          shape: N
+        - baseX: 0
+          topX: 0.5
+          length: 1.51
+          baseWidth: 1
+          topWidth: 0.5
+          shape: N
+        - baseX: 0.5
+          topX: 1
+          length: 3.04
+          baseWidth: 0.5
+          topWidth: 0.5
+          shape: N
+        - baseX: 1
+          topX: 1
+          length: 2.8
+          baseWidth: 0.5
+          topWidth: 1.4
+          shape: N
+        crossSections:
+        - y: 0
+          trueEdges:
+          - x: 1
+            left:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+            right:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+          falseEdges:
+          - x: 1
+            left:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+            right:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+        - y: 2.75
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+        - y: 1.51
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+        - y: 3.04
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+        - y: 2.8
+          trueEdges:
+          - x: 0.75
+            left:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 0.75
+            left:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+    grip:
+      name: Red Dragon Arming Sword Grip
+      weight: 34
+      material: TPE
+      materialPath: 
+      pob: 0
+      shape:
+        totalLength: 11.8
+        baseWidth: 0
+        tipWidth: 0
+        baseThickness: 2.4
+        tipThickness: 2.2
+        leftProfiles:
+        - baseX: 0
+          topX: 0
+          length: 11.8
+          baseWidth: 1.8
+          topWidth: 1.25
+          shape: N
+        rightProfiles:
+        - baseX: 0
+          topX: 0
+          length: 11.8
+          baseWidth: 1.8
+          topWidth: 1.25
+          shape: N
+        crossSections:
+        - y: 0
+          trueEdges:
+          - x: 1.62
+            left:
+              baseThickness: 1.2
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1.2
+              topThickness: 1
+              shape: N
+          - x: 0.18
+            left:
+              baseThickness: 1
+              topThickness: 0.8
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 0.8
+              shape: N
+          falseEdges:
+          - x: 1.62
+            left:
+              baseThickness: 1.2
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1.2
+              topThickness: 1
+              shape: N
+          - x: 0.18
+            left:
+              baseThickness: 1
+              topThickness: 0.8
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 0.8
+              shape: N
+        - y: 11.8
+          trueEdges:
+          - x: 1.125
+            left:
+              baseThickness: 1.1
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.1
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 1.125
+            left:
+              baseThickness: 1.1
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.1
+              topThickness: 0
+              shape: N
+    pommel:
+      name: Red Dragon Arming Sword Pommel
+      weight: 118
+      material: TPE_BLACK
+      materialPath: 
+      pob: 0
+      shape:
+        totalLength: 6.4
+        baseWidth: 0
+        tipWidth: 0
+        baseThickness: 2.5
+        tipThickness: 3.6
+        leftProfiles:
+        - baseX: 0
+          topX: 0
+          length: 3.2
+          baseWidth: 1.25
+          topWidth: 3.15
+          shape: R
+        - baseX: 0
+          topX: 0
+          length: 3.2
+          baseWidth: 3.15
+          topWidth: 0
+          shape: R
+        rightProfiles:
+        - baseX: 0
+          topX: 0
+          length: 3.2
+          baseWidth: 1.25
+          topWidth: 3.15
+          shape: R
+        - baseX: 0
+          topX: 0
+          length: 3.2
+          baseWidth: 3.15
+          topWidth: 0
+          shape: R
+        crossSections:
+        - y: 0
+          trueEdges:
+          - x: 1.25
+            left:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 1.25
+            left:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: N
+        - y: 3.2
+          trueEdges:
+          - x: 3.15
+            left:
+              baseThickness: 1.8
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1.8
+              topThickness: 1
+              shape: N
+          falseEdges:
+          - x: 3.15
+            left:
+              baseThickness: 1.8
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1.8
+              topThickness: 1
+              shape: N
+        - y: 3.2
+          trueEdges:
+          - x: 0
+            left:
+              baseThickness: 1.8
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1.8
+              topThickness: 1
+              shape: N
+          falseEdges:
+          - x: 0
+            left:
+              baseThickness: 1.8
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1.8
+              topThickness: 1
+              shape: N
+    totalLength: 0
+    totalWeight: 0
+    pob: 0

@@ -1,0 +1,768 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b01530c8bd128943926389f4c5c05d7, type: 3}
+  m_Name: Test Sword 2
+  m_EditorClassIdentifier: 
+  swordData:
+    name: Test Sword 2
+    id: 11
+    blade:
+      name: Test Sword 2 Blade
+      totalLength: 125
+      totalWeight: -2
+      bladeWeight: -1
+      bladeMaterial: Steel
+      bladeMaterialPath: 
+      pob: 0
+      shape:
+        totalLength: 95
+        baseWidth: 0
+        tipWidth: 0
+        baseThickness: 2
+        tipThickness: 1
+        leftProfiles:
+        - baseX: 0
+          topX: 0
+          length: 4
+          baseWidth: 3
+          topWidth: 10
+          shape: N
+        - baseX: 0
+          topX: 0
+          length: 83
+          baseWidth: 10
+          topWidth: 5
+          shape: N
+        - baseX: 0
+          topX: 0
+          length: 8
+          baseWidth: 5
+          topWidth: 0.5
+          shape: N
+        rightProfiles:
+        - baseX: 0
+          topX: 0
+          length: 4
+          baseWidth: 3
+          topWidth: 10
+          shape: N
+        - baseX: 0
+          topX: 0
+          length: 83
+          baseWidth: 10
+          topWidth: 5
+          shape: N
+        - baseX: 0
+          topX: 0
+          length: 8
+          baseWidth: 5
+          topWidth: 0.5
+          shape: N
+        crossSections:
+        - y: 0
+          trueEdges:
+          - x: 3
+            left:
+              baseThickness: 1
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 1
+              shape: N
+          falseEdges:
+          - x: 3
+            left:
+              baseThickness: 1
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 1
+              shape: N
+        - y: 4
+          trueEdges:
+          - x: 5
+            left:
+              baseThickness: 3.5
+              topThickness: 3
+              shape: N
+            right:
+              baseThickness: 3.5
+              topThickness: 3
+              shape: N
+          - x: 5
+            left:
+              baseThickness: 3
+              topThickness: 2
+              shape: N
+            right:
+              baseThickness: 3
+              topThickness: 2
+              shape: N
+          falseEdges:
+          - x: 5
+            left:
+              baseThickness: 3.5
+              topThickness: 3
+              shape: N
+            right:
+              baseThickness: 3.5
+              topThickness: 3
+              shape: N
+          - x: 5
+            left:
+              baseThickness: 3
+              topThickness: 2
+              shape: N
+            right:
+              baseThickness: 3
+              topThickness: 2
+              shape: N
+        - y: 83
+          trueEdges:
+          - x: 5
+            left:
+              baseThickness: 1.5
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1.5
+              topThickness: 1
+              shape: N
+          falseEdges:
+          - x: 5
+            left:
+              baseThickness: 1.5
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1.5
+              topThickness: 1
+              shape: N
+        - y: 8
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0.5
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0.5
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0.5
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0.5
+              shape: N
+      topFaceFullers:
+      - centreX: 0
+        startY: 4
+        leftSide:
+        - y: 0
+          x: 2.5
+          depth: 2
+        - y: 40
+          x: 1
+          depth: 0
+        rightSide:
+        - y: 0
+          x: 2.5
+          depth: 2
+        - y: 40
+          x: 1
+          depth: 0
+      bottomFaceFullers:
+      - centreX: 0
+        startY: 4
+        leftSide:
+        - y: 0
+          x: 2.5
+          depth: 2
+        - y: 40
+          x: 1
+          depth: 0
+        rightSide:
+        - y: 0
+          x: 2.5
+          depth: 2
+        - y: 40
+          x: 1
+          depth: 0
+      tang:
+        weight: -1
+        material: Soft Steel
+        pob: 0
+        shape:
+          totalLength: 30
+          baseWidth: 0
+          tipWidth: 0
+          baseThickness: 2
+          tipThickness: 2
+          leftProfiles:
+          - baseX: 0
+            topX: 0
+            length: 30
+            baseWidth: 3
+            topWidth: 1.5
+            shape: N
+          rightProfiles:
+          - baseX: 0
+            topX: 0
+            length: 30
+            baseWidth: 3
+            topWidth: 1.5
+            shape: N
+          crossSections:
+          - y: 0
+            trueEdges:
+            - x: 6
+              left:
+                baseThickness: 1
+                topThickness: 1
+                shape: N
+              right:
+                baseThickness: 1
+                topThickness: 1
+                shape: N
+            falseEdges:
+            - x: 6
+              left:
+                baseThickness: 1
+                topThickness: 1
+                shape: N
+              right:
+                baseThickness: 1
+                topThickness: 1
+                shape: N
+          - y: 30
+            trueEdges:
+            - x: 3
+              left:
+                baseThickness: 1
+                topThickness: 0.8
+                shape: N
+              right:
+                baseThickness: 1
+                topThickness: 0.8
+                shape: N
+            falseEdges:
+            - x: 3
+              left:
+                baseThickness: 1
+                topThickness: 0.8
+                shape: N
+              right:
+                baseThickness: 1
+                topThickness: 0.8
+                shape: N
+    trueGuards:
+    - name: Test Sword 2 Guard
+      weight: 400
+      material: Steel
+      materialPath: 
+      pob: 0
+      shape:
+        totalLength: 15
+        baseWidth: 0
+        tipWidth: 0
+        baseThickness: 1
+        tipThickness: 0.8
+        leftProfiles:
+        - baseX: 0
+          topX: 0
+          length: 15
+          baseWidth: 0.5
+          topWidth: 0.4
+          shape: N
+        rightProfiles:
+        - baseX: 0
+          topX: 0
+          length: 15
+          baseWidth: 0.5
+          topWidth: 0.4
+          shape: N
+        crossSections:
+        - y: 0
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+        - y: 15
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.4
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.4
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.4
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.4
+              topThickness: 0
+              shape: N
+    falseGuards:
+    - name: Test Sword 2 Guard
+      weight: 20
+      material: TPE
+      materialPath: 
+      pob: 0
+      shape:
+        totalLength: 12.000001
+        baseWidth: 0
+        tipWidth: 0
+        baseThickness: 2.7
+        tipThickness: 2.8
+        leftProfiles:
+        - baseX: 0
+          topX: 0
+          length: 2.75
+          baseWidth: 1
+          topWidth: 0.5
+          shape: N
+        - baseX: 0
+          topX: -0.5
+          length: 2.15
+          baseWidth: 0.5
+          topWidth: 0.5
+          shape: N
+        - baseX: -0.5
+          topX: -1
+          length: 4.3
+          baseWidth: 0.5
+          topWidth: 0.5
+          shape: N
+        - baseX: -1
+          topX: -1
+          length: 2.8
+          baseWidth: 0.5
+          topWidth: 1.4
+          shape: N
+        rightProfiles:
+        - baseX: 0
+          topX: 0
+          length: 2.75
+          baseWidth: 1.7
+          topWidth: 1
+          shape: N
+        - baseX: 0
+          topX: 0.5
+          length: 2.15
+          baseWidth: 1
+          topWidth: 0.5
+          shape: N
+        - baseX: 0.5
+          topX: 1
+          length: 4.3
+          baseWidth: 0.5
+          topWidth: 0.5
+          shape: N
+        - baseX: 1
+          topX: 1
+          length: 2.8
+          baseWidth: 0.5
+          topWidth: 1.4
+          shape: N
+        crossSections:
+        - y: 0
+          trueEdges:
+          - x: 1
+            left:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+            right:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+          falseEdges:
+          - x: 1
+            left:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+            right:
+              baseThickness: 1.35
+              topThickness: 1.35
+              shape: N
+        - y: 2.75
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 0.5
+              shape: N
+        - y: 2.15
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+        - y: 4.3
+          trueEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 0.5
+            left:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 0.5
+              topThickness: 0
+              shape: N
+        - y: 2.8
+          trueEdges:
+          - x: 0.75
+            left:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 0.75
+            left:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.4
+              topThickness: 0
+              shape: N
+    grip:
+      name: Test Sword 2 Grip
+      weight: 34
+      material: TPE
+      materialPath: 
+      pob: 0
+      shape:
+        totalLength: 11.8
+        baseWidth: 0
+        tipWidth: 0
+        baseThickness: 2.4
+        tipThickness: 2.2
+        leftProfiles:
+        - baseX: 0
+          topX: 0
+          length: 11.8
+          baseWidth: 1.8
+          topWidth: 1.25
+          shape: N
+        rightProfiles:
+        - baseX: 0
+          topX: 0
+          length: 11.8
+          baseWidth: 1.8
+          topWidth: 1.25
+          shape: N
+        crossSections:
+        - y: 0
+          trueEdges:
+          - x: 1.62
+            left:
+              baseThickness: 1.2
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1.2
+              topThickness: 1
+              shape: N
+          - x: 0.18
+            left:
+              baseThickness: 1
+              topThickness: 0.8
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 0.8
+              shape: N
+          falseEdges:
+          - x: 1.62
+            left:
+              baseThickness: 1.2
+              topThickness: 1
+              shape: N
+            right:
+              baseThickness: 1.2
+              topThickness: 1
+              shape: N
+          - x: 0.18
+            left:
+              baseThickness: 1
+              topThickness: 0.8
+              shape: N
+            right:
+              baseThickness: 1
+              topThickness: 0.8
+              shape: N
+        - y: 11.8
+          trueEdges:
+          - x: 1.125
+            left:
+              baseThickness: 1.1
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.1
+              topThickness: 0
+              shape: N
+          falseEdges:
+          - x: 1.125
+            left:
+              baseThickness: 1.1
+              topThickness: 0
+              shape: N
+            right:
+              baseThickness: 1.1
+              topThickness: 0
+              shape: N
+    pommel:
+      name: Test Sword 2 Pommel
+      weight: 106
+      material: TPE_RED
+      materialPath: 
+      pob: 0
+      shape:
+        totalLength: 12.799999
+        baseWidth: 0
+        tipWidth: 0
+        baseThickness: 2.5
+        tipThickness: 0
+        leftProfiles:
+        - baseX: 0
+          topX: 0
+          length: 4.4
+          baseWidth: 1.25
+          topWidth: 1.25
+          shape: N
+        - baseX: 0
+          topX: 0
+          length: 6
+          baseWidth: 1.25
+          topWidth: 2
+          shape: N
+        - baseX: 0
+          topX: 0
+          length: 1.4
+          baseWidth: 2
+          topWidth: 2.5
+          shape: N
+        - baseX: 0
+          topX: 0
+          length: 1
+          baseWidth: 2.5
+          topWidth: 0
+          shape: R
+        rightProfiles:
+        - baseX: 0
+          topX: 0
+          length: 4.4
+          baseWidth: 1.25
+          topWidth: 1.25
+          shape: N
+        - baseX: 0
+          topX: 0
+          length: 6
+          baseWidth: 1.25
+          topWidth: 2
+          shape: N
+        - baseX: 0
+          topX: 0
+          length: 1.4
+          baseWidth: 2
+          topWidth: 2.5
+          shape: N
+        - baseX: 0
+          topX: 0
+          length: 1
+          baseWidth: 2.5
+          topWidth: 0
+          shape: R
+        crossSections:
+        - y: 0
+          trueEdges:
+          - x: 1.25
+            left:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: R
+            right:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: R
+          falseEdges:
+          - x: 1.25
+            left:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: R
+            right:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: R
+        - y: 4.4
+          trueEdges:
+          - x: 1.25
+            left:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: R
+            right:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: R
+          falseEdges:
+          - x: 1.25
+            left:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: R
+            right:
+              baseThickness: 1.25
+              topThickness: 0
+              shape: R
+        - y: 6
+          trueEdges:
+          - x: 2
+            left:
+              baseThickness: 2
+              topThickness: 0
+              shape: R
+            right:
+              baseThickness: 2
+              topThickness: 0
+              shape: R
+          falseEdges:
+          - x: 2
+            left:
+              baseThickness: 2
+              topThickness: 0
+              shape: R
+            right:
+              baseThickness: 2
+              topThickness: 0
+              shape: R
+        - y: 1.4
+          trueEdges:
+          - x: 2.5
+            left:
+              baseThickness: 2.5
+              topThickness: 0
+              shape: R
+            right:
+              baseThickness: 2.5
+              topThickness: 0
+              shape: R
+          falseEdges:
+          - x: 2.5
+            left:
+              baseThickness: 2.5
+              topThickness: 0
+              shape: R
+            right:
+              baseThickness: 2.5
+              topThickness: 0
+              shape: R
+        - y: 1
+          trueEdges:
+          - x: 0
+            left:
+              baseThickness: 0
+              topThickness: 0
+              shape: R
+            right:
+              baseThickness: 0
+              topThickness: 0
+              shape: R
+          falseEdges:
+          - x: 0
+            left:
+              baseThickness: 0
+              topThickness: 0
+              shape: R
+            right:
+              baseThickness: 0
+              topThickness: 0
+              shape: R
+    totalLength: 0
+    totalWeight: 0
+    pob: 0
